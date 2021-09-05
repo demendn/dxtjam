@@ -15,7 +15,7 @@ async function getCountryCode(searchTerm) {
 
 function getCountryName(countryCode) {
   if(countryCode) {
-    return lookupCountryName.getName(countryCode, "en", {select: "official"});
+    return lookupCountryName.getName(countryCode, "vi", {select: "official"});
   }
 }
 
